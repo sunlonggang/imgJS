@@ -38,7 +38,7 @@ function showPic(whichpic){
 	
 }
 
-addLoadEvent(countBodyChildren);
+// addLoadEvent(countBodyChildren);
 function countBodyChildren(){
 	alert("start");
 	// var num = document.getElementsByTagName("body")[0].childNodes;
@@ -62,6 +62,13 @@ function countBodyChildren(){
 	};
 
 }
-// countBodyChildren();
+function insertAfter(newEle,tarEle){
+	var parent = tarEle.parentNode;
+	if (parent.lastChild == tarEle) {
+		parent.appendChild(newEle);
+	}else{
+		parent.insertBefore(newEle,tarEle.nextSibling);
+	}
+}
 
 

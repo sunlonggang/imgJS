@@ -66,5 +66,12 @@ img{
 	border: 10;
 }
 
+abbr{
+	text-decoration: none;
+	border: 1em;
+	padding: 10px;
+	font: normal;
+	color: red;
+}
 
 
