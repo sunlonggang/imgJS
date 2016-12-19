@@ -21,7 +21,6 @@ window.onload = function(){
 
 	var ele1 = document.createElement("p");
 	ele1.innerHTML = "oooooo";
-	// body.appendChild(ele1);
 	body.insertBefore(ele1,ele);
 
 
