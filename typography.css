@@ -1,0 +1,14 @@
+body{
+	font-family: "Helvetica";
+	font-size: 10pt;
+}
+
+abbr{
+	text-decoration: none;
+	border: 0;
+	font-style: normal;
+	border-bottom: 1px dotted;
+}
+a{
+	display: inline;
+}

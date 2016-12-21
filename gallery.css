@@ -15,7 +15,7 @@ a{
 	color: #c60;
 	background: #0f0;
 	font-weight: bold;
-	text-decoration: none;
+	/* text-decoration: none; */
 	/* border: 10px dotted #0000FF; */
 	margin: 0em 1em 1em 1em;
 	display: block;;
@@ -64,14 +64,6 @@ img{
 
 #imagegalery li img{
 	border: 10;
-}
-
-abbr{
-	text-decoration: none;
-	border: 1em;
-	padding: 10px;
-	font: normal;
-	color: red;
 }
 
 
