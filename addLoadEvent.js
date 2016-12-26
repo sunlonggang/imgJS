@@ -10,4 +10,7 @@ function addLoadEvent(func){
 			func();
 		}
 	}
+
+
+	
 }
