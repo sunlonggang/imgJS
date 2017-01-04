@@ -3,6 +3,10 @@ addLoadEvent(displayAbbreviations);
 
 function displayAbbreviations(){
 
+
+	var b = $(".bbbb").text();
+	alert(b);
+
 	var abbr = document.getElementsByTagName("abbr");
 
 	var def = new Array();
